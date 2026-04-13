@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "Is hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:elder_guardian"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "uhmc:elderguardian_hit"
+  }
+}
