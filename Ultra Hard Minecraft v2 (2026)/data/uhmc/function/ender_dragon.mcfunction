@@ -3,7 +3,6 @@ execute as @e[type=ender_dragon,tag=!hpset] run data modify entity @s Health set
 execute as @e[type=ender_dragon,tag=!hpset] run tag @s add hpset
 
 execute as @e[type=ender_dragon,tag=!dimension_buffed] run function uhmc:ender_dragon_dimension
-execute as @e[type=ender_dragon,tag=!dimension_buffed] run tag @s add dimension_buffed
 
 execute as @e[type=dragon_fireball] run data merge entity @s {acceleration_power:0.15}
 

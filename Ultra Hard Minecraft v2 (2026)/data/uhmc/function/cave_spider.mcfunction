@@ -11,5 +11,5 @@ execute at @e[tag=spider_cobweb] run kill @e[tag=spider_cobweb_effect,distance=.
 execute at @e[tag=spider_cobweb] run summon interaction ~ ~ ~ {Tags:["spider_cobweb_effect"]}
 
 execute as @e[tag=spider_cobweb_effect] run scoreboard players add @s spider_cobweb_cooldown 1
-execute as @e[tag=spider_cobweb_effect] if score @s spider_cobweb_cooldown matches 2 at @s run fill ~1 ~ ~1 ~-1 ~ ~-1 cobweb
+execute as @e[tag=spider_cobweb_effect] if score @s spider_cobweb_cooldown matches 2 at @s run fill ~1 ~ ~1 ~-1 ~ ~-1 cobweb replace air
 execute as @e[tag=spider_cobweb_effect] if score @s spider_cobweb_cooldown matches 2.. run kill @s

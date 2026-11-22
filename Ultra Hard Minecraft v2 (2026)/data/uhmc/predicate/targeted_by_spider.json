@@ -1,10 +1,10 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:spider",
-    "targeted_entity": {
-      "type": "minecraft:player"
+    "minecraft:entity_type": "minecraft:spider",
+    "minecraft:targeted_entity": {
+      "minecraft:entity_type": "minecraft:player"
     }
   }
 }

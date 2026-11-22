@@ -1,10 +1,10 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:enderman",
-    "targeted_entity": {
-      "type": "minecraft:player"
+    "minecraft:entity_type": "minecraft:enderman",
+    "minecraft:targeted_entity": {
+      "minecraft:entity_type": "minecraft:player"
     }
   }
 }

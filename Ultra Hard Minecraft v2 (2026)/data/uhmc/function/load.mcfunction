@@ -63,5 +63,3 @@ scoreboard objectives add ghast_homing_cooldown dummy
 
 scoreboard objectives add slime_cooldown dummy
 scoreboard objectives add magma_cube_cooldown dummy
-
-scoreboard objectives add vector_scale dummy

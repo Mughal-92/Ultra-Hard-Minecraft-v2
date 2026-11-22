@@ -6,10 +6,7 @@ execute as @e[type=warden] run attribute @s attack_damage base set 50
 execute as @e[type=warden] run attribute @s follow_range base set 72
 
 
-
 execute as @e[type=warden] run scoreboard players add @s warden_sculk_infection_cooldown 1
-execute as @e[type=warden] if score @s warden_sculk_infection_cooldown matches 600 run execute at @s run function uhmc:warden_sculk_infection_spread
-execute as @e[type=warden] if score @s warden_sculk_infection_cooldown matches 610.. run execute at @s run function uhmc:warden_sculk_infection_convert
-execute as @e[type=warden] if score @s warden_sculk_infection_cooldown matches 610.. run scoreboard players set @s warden_sculk_infection_cooldown 0
-
-execute at @e[type=warden] run execute as @a[advancements={uhmc:hurt_by_warden=true},distance=5..50] at @s run function uhmc:warden_hit
+execute as @e[type=warden] if score @s warden_sculk_infection_cooldown matches 300 run execute at @s run function uhmc:warden_sculk_infection_spread
+execute as @e[type=warden] if score @s warden_sculk_infection_cooldown matches 310.. run execute at @s run function uhmc:warden_sculk_infection_convert
+execute as @e[type=warden] if score @s warden_sculk_infection_cooldown matches 310.. run scoreboard players set @s warden_sculk_infection_cooldown 0

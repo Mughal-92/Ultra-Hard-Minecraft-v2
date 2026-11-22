@@ -19,6 +19,7 @@ function uhmc:parched
 function uhmc:phantom
 function uhmc:piglin
 function uhmc:piglin_brute
+function uhmc:pillager
 function uhmc:polar_bear
 function uhmc:ravager
 function uhmc:shulker
@@ -36,5 +37,3 @@ function uhmc:witch
 function uhmc:zoglin
 function uhmc:zombie_villager
 function uhmc:zombie
-
-scoreboard players set @a vector_scale 2 

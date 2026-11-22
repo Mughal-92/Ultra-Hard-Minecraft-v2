@@ -1,3 +1,5 @@
+tag @s add dimension_buffed
+
 # Defining tower radius
 
 execute as @e[type=end_crystal,tag=!floating_crystal] at @s if block ~ ~-1 ~ bedrock run execute if block ~2 ~-2 ~ obsidian run tag @s add end_crystal_smalltower
@@ -143,12 +145,12 @@ execute as @e[type=end_crystal,tag=end_crystal_tallest_tower] at @s run fill ~3 
 
 ## Addition Floating Crystals---------------------------------------------------------------------------------------------------
 
-kill @e[tag=floating_crystal]
+#kill @e[tag=floating_crystal]
 
-summon end_crystal 0 120 21 {Tags:["floating_crystal"]}
-summon end_crystal 21 120 0 {Tags:["floating_crystal"]}
-summon end_crystal -21 120 0 {Tags:["floating_crystal"]}
-summon end_crystal 0 120 -21 {Tags:["floating_crystal"]}
+execute in minecraft:the_end run summon end_crystal 0 120 21 {Tags:["floating_crystal"]}
+execute in minecraft:the_end run summon end_crystal 21 120 0 {Tags:["floating_crystal"]}
+execute in minecraft:the_end run summon end_crystal -21 120 0 {Tags:["floating_crystal"]}
+execute in minecraft:the_end run summon end_crystal 0 120 -21 {Tags:["floating_crystal"]}
 
 
 

@@ -28,8 +28,8 @@ execute as @e[type=wither] if score @s wither_health matches 250.. run execute i
 execute as @e[type=wither] if score @s wither_health matches 250.. run execute if score @s wither_ability matches 330..340 run execute at @s run particle large_smoke ~ ~ ~ 8 8 8 0.1 80
 execute as @e[type=wither] if score @s wither_health matches 250.. run execute if score @s wither_ability matches 340..350 run execute at @s run particle large_smoke ~ ~ ~ 10 10 10 0.1 160
 
-execute as @e[type=wither] if score @s wither_health matches 250.. run execute if score @s wither_ability matches 350 run execute at @s run playsound entity.wither.death master @a ~ ~ ~
-execute as @e[type=wither] if score @s wither_health matches 250.. run execute if score @s wither_ability matches 350.. run execute at @s run function uhmc:wither_skull_burst
+execute as @e[type=wither] if score @s wither_health matches 250.. run execute if score @s wither_ability matches 300 run execute at @s run playsound entity.wither.death master @a ~ ~ ~
+execute as @e[type=wither] if score @s wither_health matches 250.. run execute if score @s wither_ability matches 300.. run execute at @s run function uhmc:wither_skull_burst
 
 
 # Wither Reanimation Ability

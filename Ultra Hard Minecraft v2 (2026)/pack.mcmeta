@@ -1,9 +1,7 @@
 {
-    "pack": {
-        "description": {
-            "translate": "Super Ultra Hard Minecraft"
-        },
-        "min_format": [94, 1],
-        "max_format": [94, 1]
-    }
+  "pack": {
+    "description": "Your datapack description",
+    "min_format": [121, 0],
+    "max_format": 121
+  }
 }

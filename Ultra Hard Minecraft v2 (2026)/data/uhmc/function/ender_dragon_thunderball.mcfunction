@@ -11,7 +11,7 @@ execute store result storage thunderball_vector y float 0.01 run scoreboard play
 execute store result storage thunderball_vector z float 0.01 run scoreboard players operation @a[sort=nearest,limit=1] dragontarget_z -= @s dragon_z
 
 
-summon fireball ^ ^ ^5 {Tags:["thunderball"],ExplosionPower:4b}
+summon fireball ^ ^ ^5 {Tags:["thunderball"],ExplosionPower:6b}
 
 data modify entity @e[tag=thunderball,sort=nearest,limit=1] Motion[0] set from storage minecraft:thunderball_vector x
 data modify entity @e[tag=thunderball,sort=nearest,limit=1] Motion[1] set from storage minecraft:thunderball_vector y
