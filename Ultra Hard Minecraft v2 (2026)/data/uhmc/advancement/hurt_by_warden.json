@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "Is hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:warden"
+          }
+        }
+      }
+    }
+  }  
+}

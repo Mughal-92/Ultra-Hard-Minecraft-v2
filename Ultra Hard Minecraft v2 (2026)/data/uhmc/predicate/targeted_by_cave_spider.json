@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:cave_spider",
+    "minecraft:targeted_entity": {
+      "minecraft:entity_type": "minecraft:player"
+    }
+  }
+}
